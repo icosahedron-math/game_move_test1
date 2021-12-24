@@ -5,10 +5,10 @@ right - right arrow, d <br>
 down - down arrow, s <br>
 up - up arrow, w <br>
 jump - shift, space <br>
-
-UNIT = BLUE @
-ENEMY = RED @
-WALL = GREEN #
-TELEPORT = CYAN #
+ <br>
+UNIT = BLUE @ <br>
+ENEMY = RED @ <br>
+WALL = GREEN # <br>
+TELEPORT = CYAN # <br>
 
 ## RUN ONLY IN BASH OR POWERSHELL(Windows termonal), not in cmd
