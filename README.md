@@ -11,4 +11,4 @@ ENEMY = RED @ <br>
 WALL = GREEN # <br>
 TELEPORT = CYAN # <br>
 
-## RUN ONLY IN BASH OR POWERSHELL(Windows termonal), not in cmd
+## RUN ONLY IN BASH OR POWERSHELL(Windows terminal), not in cmd
