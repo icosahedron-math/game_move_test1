@@ -210,7 +210,7 @@ class Main(Commands):
     
     def worker(self, com: str):
         # analysis and work command
-        if com == 'shift':
+        if com in ('shift', 'space'):
             if self.active == 'left':
                 com = 'left'
                 self.w_move(self.rows, -3)
@@ -278,7 +278,7 @@ class Main(Commands):
             # get command
             while True:
                 com = keyboard.read_key()
-                if com == 'shift':
+                if com in ('shift', 'space'):
                     if self.move_to_jump == f'{Fore.GREEN}JUMP!':
                         self.move_to_jump = 30
                         self.worker(com)
